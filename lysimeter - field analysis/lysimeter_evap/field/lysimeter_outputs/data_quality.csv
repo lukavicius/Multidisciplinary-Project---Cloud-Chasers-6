@@ -1,0 +1,15 @@
+check,finding,consequence
+Readings outside the zero-test range,0.4% outside 16.9–21.7 °C; field 16.7–21.9 °C,zero correction (ALPHA) applies to almost all readings
+Readings outside the calibration-session range,"58% below 18.6 °C, 1% above 21.4 °C","span correction (BETA) extrapolated; with the zero part, changes the weight by at most 1.3 g"
+Mass uncertainty,noise 0.66 g per 15-min change; absolute ±7 g (1 SD),changes over a window: see the uncertainty columns of the drying and fog tables
+Tare temperature,"tare row logged at 21.0 °C, T_REF = 21 °C",possible constant offset of +0.0 g
+Temperature correction size,-2.5 to 12.2 g,added to the uncorrected weight
+Logger RH saturated,94% of records at 98%,no fog signal from the logger
+Sampling interval,median 890 s; elapsed_sec steps 900 s,elapsed_sec drifts 1.1% against the clock
+Boot counter,boot_session values: [1]; boots found: 2,counter does not increment
+Tip-counter resets,"19 Oct 08:12 (BOOT_POWERON, counter was 238, weight +29 g); 21 Oct 08:06 (silent reset (no BOOT record), counter was 154, weight -10 g)","tips taken as the count since the reset, never negative; tips in the minutes before a silent reset are lost"
+First record after a reboot,2026-10-19 08:12:34: 304 g,"partial average, dropped"
+Logger outages,2026-10-18 11:38:13 to 2026-10-19 08:12:34,drainage not recorded; tip counter resets
+Tempest gaps,2026-10-18 15:45:00 to 2026-10-19 13:45:00,rain unknown in these spans
+Rain scaling in fog file,Tempest rain / fog-file rain_mm = 15.0,use Tempest precip x 15
+Drainage vs input,88.8 mm drained vs 73.1 mm throughfall + fog,water balance does not close

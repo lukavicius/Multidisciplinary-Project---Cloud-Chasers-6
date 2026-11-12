@@ -1,0 +1,20 @@
+# Google OAuth (dashboard launcher)
+credentials.json
+token.json
+.requirements_installed
+.requirements_from_drive.txt
+
+# Local API keys, if moved out of the scripts
+.env
+secrets*.json
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# IDE (workspace.xml holds local paths and session state)
+.idea/workspace.xml
+.idea/shelf/
+.vscode/

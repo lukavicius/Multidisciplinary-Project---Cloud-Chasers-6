@@ -1,0 +1,5 @@
+pandas>=2.0
+plotly>=5.18
+dash>=2.14
+google-api-python-client>=2.100
+google-auth-oauthlib>=1.1
